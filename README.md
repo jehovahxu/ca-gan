@@ -47,7 +47,7 @@ If you find this useful for your research, please use the following.
     - [Baidu Drive]()
 - Get face parsing
     - here we use [Face Labling](https://github.com/Liusifei/Face_Parsing_2016) to get face parsing
-    - Check out the [branch]() to get the our newly used 
+    - Check out the [branch](https://github.com/jehovahxu/ca-gan/tree/new_parsing) to get the our newly used 
 - Train a model
     ```shell script
     python main.py --model_vgg {model path}
