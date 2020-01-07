@@ -131,7 +131,7 @@ def train(print_every=10):
             ys = (ys - _mean) / _var
             loss_recog = perceptual_loss(yh, ys)
 
-  
+
 
             loss_G = loss_G_GAN + loss_G_L1 + opt.styleParam * loss_recog
 
@@ -177,13 +177,14 @@ def test(epoch, netG, netE, test_data, opt):
         fake_s1 = netG.forward(real_p[:, 0:3, :, :], parsing_feature)
         output_name_A = '{:s}/{:s}{:s}'.format(
             save_dir_A, str(i + 1), '.jpg')
-        fake_s1 = fake_s1.squeeze(0)
-
-        fake_s1 = np.transpose(fake_s1.data.cpu().numpy(), (1, 2, 0)) / 2 + 0.5
-
-        img = fake_s1[3:253, 28:228, :]
-        cc = (img * 255).astype(np.uint8)
-        cv2.imwrite(output_name_A, cc)
+        vutils.save_image(fake_s1[:, :, 3:253, 28:228], output_name_A, normalize=True, scale_each=True)
+        # fake_s1 = fake_s1.squeeze(0)
+        #
+        # fake_s1 = np.transpose(fake_s1.data.cpu().numpy(), (1, 2, 0)) / 2 + 0.5
+        #
+        # img = fake_s1[3:253, 28:228, :]
+        # cc = (img * 255).astype(np.uint8)
+        # cv2.imwrite(output_name_A, cc)
 
 
 
