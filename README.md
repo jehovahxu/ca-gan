@@ -44,7 +44,7 @@ If you find this useful for your research, please use the following.
 - Download the [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) model which based on the VGG-Very-Deep-16 CNN architecture.
  Here we convert torch weight to pyTorch to fit our frame, you can download our converted model directly.
     - [Google Drive](https://drive.google.com/open?id=1V2dfOLXSgAS9V8PvhTeQAP6KGI40aff_)
-    - [Baidu Drive]()
+
 - Get face parsing
     - here we use [Face Labling](https://github.com/Liusifei/Face_Parsing_2016) to get face parsing
     - Check out the [branch](https://github.com/jehovahxu/ca-gan/tree/new_parsing) to get the our newly used 
@@ -60,7 +60,7 @@ If you find this useful for your research, please use the following.
 ### Apply a pre-trained model
 - You can download a pre-trained model which trained on the CUSF and can transform photo to sketch  :
     - [Google Drive](https://drive.google.com/open?id=17KG1e0-cq_dmidQovzG9vOWZSq3of0Lx)
-    - [Baidu Drive]()
+
 -  The pre-trained model need to be save at `./checkpoint` and named it as `netG_epoch_'+fold+'.weight`
 - Then you can test the model
 
@@ -71,7 +71,7 @@ If you find this useful for your research, please use the following.
 ### Result
 - Our final result can be downloaded:
     - [Google Drive](https://drive.google.com/open?id=1EHpQWzbbF3-BSd93rCclpYtbpbEOZ3p3)
-    - [Baidu Drive]()
+
 
 
 ### Training/Test Tips
