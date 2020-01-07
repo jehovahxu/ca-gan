@@ -46,8 +46,8 @@ If you find this useful for your research, please use the following.
     - [Google Drive](https://drive.google.com/open?id=1V2dfOLXSgAS9V8PvhTeQAP6KGI40aff_)
     - [Baidu Drive]()
 - Get face parsing
-    - here we use [Face Labling](https://github.com/Liusifei/Face_Parsing_2016) to get face parsing
-    - Check out the [branch]() to get the our newly used 
+    - here we use [face-parsing.PyTorch](https://github.com/jehovahxu/face-parsing.PyTorch) to get face parsing
+    - Check out the [branch](https://github.com/jehovahxu/ca-gan) to get the our previous used 
 - Train a model
     ```shell script
     python main.py --model_vgg {model path}
@@ -69,8 +69,8 @@ If you find this useful for your research, please use the following.
 - [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/)
 
 ### Result
-- Our final result can be downloaded:
-    - [Google Drive](https://drive.google.com/open?id=1EHpQWzbbF3-BSd93rCclpYtbpbEOZ3p3)
+- Our final result with new parsing can be downloaded:
+    - [Google Drive](https://drive.google.com/open?id=1cie6l-IuxSm-ste2bIi6L7Y_leWNpotB)
     - [Baidu Drive]()
 
 
