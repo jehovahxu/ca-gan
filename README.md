@@ -45,8 +45,8 @@ If you find this useful for your research, please use the following.
  Here we convert torch weight to pyTorch to fit our frame, you can download our converted model directly.
     - [Google Drive](https://drive.google.com/open?id=1V2dfOLXSgAS9V8PvhTeQAP6KGI40aff_)
 - Get face parsing
-    - here we use [face-parsing.PyTorch](https://github.com/jehovahxu/face-parsing.PyTorch) to get face parsing
-    - Check out the [branch](https://github.com/jehovahxu/ca-gan) to get the our previous used 
+    - here we use [face-parsing.PyTorch](https://github.com/jehovahxu/face-parsing.PyTorch) to get face parsing(v1.5, replacing P-Net by [MaskGAN](https://github.com/switchablenorms/CelebAMask-HQ))
+    - Check out the [mian branch](https://github.com/jehovahxu/ca-gan) to get the our previous P-Net(v1.0, the results shown in the paper) 
 - Train a model
     ```shell script
     python main.py --model_vgg {model path}
