@@ -58,7 +58,7 @@ If you find this useful for your research, please use the following.
     - The option `fold` is used for load `./checkpoint/netG_epoch_'+fold+'.weight` and you can edit it in `test.py` 
 ### Apply a pre-trained model
 - You can download a pre-trained model which trained on the CUSF and can transform photo to sketch  :
-    - [Google Drive](https://drive.google.com/open?id=17KG1e0-cq_dmidQovzG9vOWZSq3of0Lx)
+    - [Google Drive](https://drive.google.com/open?id=1h1vp3FICk6gIIHn2kNaBFQZWe4pQcF75)
 -  The pre-trained model need to be save at `./checkpoint` and named it as `netG_epoch_'+fold+'.weight`
 - Then you can test the model
 
