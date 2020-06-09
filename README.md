@@ -1,7 +1,7 @@
 # CA-GAN
 We provide PyTorch implementation for our CYB paper "Towards Realistic Face Photo-Sketch Synthesis via Composition-Aided GANs"
 
-[[paper]]()
+[[paper]](https://arxiv.org/abs/1712.00899)
 ## Our Proposed Framework
 ![](imgs/architecture1.png)
 
